@@ -1,0 +1,13 @@
+#welcome-section{
+    background-color: darkgray;
+}
+#projects{
+    height: 100vh;
+    background-color: darkslategray;
+}
+#center_heading{
+    height:100vh;
+}
+h1{
+    text-shadow: 1px 1px 15px black;
+}

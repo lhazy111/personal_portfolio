@@ -9,12 +9,91 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Freecodecamp Responsive Web Design Certification Projects - Build a Personal Portfolio Webpage</title>
 </head>
 
 <body>
-    <h1>Freecodecamp Responsive Web Design Certification Projects - Build a Personal Portfolio Webpage</h1>
+    <div class="container-fluid align-items-center" id="welcome-section">
+        <ul class="nav justify-content-end pt-3 fixed-top" id="navbar">
+            <li class="nav-item">
+                <a class="nav-link active" href="#welcome-section">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+        <div class="row align-items-center" id="center_heading">
+            <div class="col">
+                <h1 class="display-1 text-center">
+                    Hello, I'm Lou
+                </h1>
+                <h1 class="display-4 text-center">
+                    Developer You need.
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="projects">
+        <div class="row py-4">
+            <div class="col">
+                <h1 class="display-4">
+                    Some of my projects...
+                </h1>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <a href="#">
+                    <div class="card project-tile">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 3</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 4</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h6>Check my <a href="https://github.com/lhazy111" target="_blank" id="profile-link">github profile</a></h6>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
