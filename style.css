@@ -11,3 +11,10 @@
 h1{
     text-shadow: 1px 1px 15px black;
 }
+
+#navbar a{
+    color:black;
+}
+
+#navbar a:hover {
+text-shadow: 1px 0px 3px greenyellow;}
