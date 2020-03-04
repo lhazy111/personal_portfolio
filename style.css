@@ -18,3 +18,8 @@ h1{
 
 #navbar a:hover {
 text-shadow: 1px 0px 3px greenyellow;}
+
+.card-link{
+    text-decoration: none;
+    color: initial;
+}
