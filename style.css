@@ -17,7 +17,14 @@ h1{
 }
 
 #navbar a:hover {
-text-shadow: 1px 0px 3px greenyellow;}
+text-shadow: 1px 0px 3px greenyellow;
+border-color: greenyellow ;
+}
+
+#navbar li:hover{
+border-bottom:solid white;
+opacity: 0.5;
+}
 
 .card-link{
     text-decoration: none;
